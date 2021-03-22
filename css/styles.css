@@ -1,0 +1,182 @@
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#title {
+    color: #ffffff;
+    background-color: #ff4c68
+}
+
+.navbar {
+  padding-bottom: 4.5rem
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: 'bold';
+}
+
+.navbar-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
+
+.down-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.phone-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+#features {
+  text-align: center;
+  color: #8f8f8f;
+  padding:7% 15%;
+  position: relative;
+  background-color: #fff;
+}
+
+.feature {
+  padding:5%
+}
+
+.fa-3x {
+  color: #ef8172;
+  padding: 4.5%;
+}
+
+.fa-3x:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.testimonial-image {
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  padding-bottom: 3%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.card-body {
+  height: 20rem;
+  padding: 0 0;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-title {
+  color: #8f8f8f;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.price-btn {
+  margin: 0 5%;
+}
+
+.spacer {
+  height: 2.5rem;
+}
+
+/*footer*/
+
+#cta {
+  background-color: #ff4c68;
+  color: #000000;
+  text-align: center;
+  padding: 5% 30% 0%;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff;
+
+}
+
+#footer {
+  background-color: #fff;
+  color: #8f8f8f;
+  text-align: center;
+  padding: 3% 30%;
+}
+
+
+.social-icon {
+  padding-left: 5%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
